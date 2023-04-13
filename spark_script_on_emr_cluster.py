@@ -32,3 +32,7 @@ df.show(truncate=False)
 
 # Writing file in hadoop
 df.write.csv("/output/record.csv")
+
+
+# spark submit command
+spark-submit --master yarn --deploy-mode cluster test.py
